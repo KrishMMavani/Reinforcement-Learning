@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": 1729412976806,
+    "data": {
+      "elements": [
+        {
+          "type": "navbar",
+          "id": 306,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(248, 249, 250)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 310,
+          "attributes": {
+            "style": {
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgba(0, 0, 0, 0.55)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 344,
+          "attributes": {
+            "style": {
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgb(13, 110, 253)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 354,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 0, 0)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 364,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 0, 0)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 374,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 0, 0)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 384,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 0, 0)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 394,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 0, 0)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "background",
+          "id": 301,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 255, 255)"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

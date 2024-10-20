@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": 1729412996807,
+    "data": {
+      "elements": [
+        {
+          "type": "navbar",
+          "id": 699,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(248, 249, 250)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 703,
+          "attributes": {
+            "style": {
+              "background-color": "rgba(0, 0, 0, 0)",
+              "color": "rgba(0, 0, 0, 0.55)"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "id": 736,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(13, 110, 253)",
+              "color": "rgb(255, 255, 255)"
+            }
+          }
+        },
+        {
+          "type": "background",
+          "id": 301,
+          "attributes": {
+            "style": {
+              "background-color": "rgb(255, 255, 255)"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
