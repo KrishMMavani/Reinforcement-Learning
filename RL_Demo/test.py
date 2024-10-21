@@ -222,6 +222,10 @@ last_file_time = start_time
 terminated = False
 truncated = False
 
+# Function to convert RGB values to rgb(x, y, z) format
+def to_rgb_format(r, g, b):
+    return f"rgb({int(r)}, {int(g)}, {int(b)})"
+
 # Run the agent and generate new JSON files at 10-second intervals
 while time.time() - start_time < total_run_time:
     # Generate a new JSON file every 10 seconds
@@ -231,11 +235,16 @@ while time.time() - start_time < total_run_time:
         action, _states = model.predict(obs)
         obs, reward, terminated, truncated, info = env.step(action)
 
-        # Create the output data based on the observation (normalized RGB values)
+        # Convert the normalized RGB values to actual 255-scale RGB and then to `rgb(x, y, z)` format
+        button_rgb = to_rgb_format(obs[0] * 255, obs[1] * 255, obs[2] * 255)
+        navbar_rgb = to_rgb_format(obs[3] * 255, obs[4] * 255, obs[5] * 255)
+        background_rgb = to_rgb_format(obs[6] * 255, obs[7] * 255, obs[8] * 255)
+
+        # Create the output data in RGB format
         output_data = {
-            "button_color": int(obs[0] * 255),
-            "navbar_color": int(obs[3] * 255),
-            "background_color": int(obs[6] * 255)
+            "button_color": button_rgb,
+            "navbar_color": navbar_rgb,
+            "background_color": background_rgb
         }
 
         # Save the output data to a new JSON file with a timestamp
