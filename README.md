@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ## Run the project
 To run this project:
 ```
-python train.py
+python app.py
 ```
 ```
-python test.py
+python run_both.py
 ```
 
